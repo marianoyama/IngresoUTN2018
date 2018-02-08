@@ -2,37 +2,64 @@
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
-var num1
-var num2
-var suma
-var resta
-var multiplica
-var dividir
-
-num1 = document.getElementById("numeroUno").value;
-num1 = parseInt(num1);
-
-num2 = document.getElementById("numeroDos").value;
-num2 = parseInt(num2);
-
 function sumar()
-{	suma = num1 + num2
-	
+{	var sumar;
+    var restar;
+    var multiplicar;
+    var dividir;
+
+    
+    numero1 = document.getElementById("numeroUno").value;
+    numero1 = parseInt(numero1);
+
+    numero2 = document.getElementById("numeroDos").value;
+    numero2 = parseInt(numero2);
+
+    sumar = numero1 + numero2;
+
+
+    alert("La suma es " + sumar); 
 }
 
 function restar()
-{ resta = num1 + num2
+{   var restar;
+    numero1 = document.getElementById("numeroUno").value;
+    numero1 = parseInt(numero1);
+
+    numero2 = document.getElementById("numeroDos").value;
+    numero2 = parseInt(numero2);
+    
+    restar = numero1 - numero2;
+
+    alert("La resta es " + restar);
 	
 }
 
 function multiplicar()
-{ multiplica = num1 + num2
+{   var multiplicar
+    numero1 = document.getElementById("numeroUno").value;
+    numero1 = parseInt(numero1);
+
+    numero2 = document.getElementById("numeroDos").value;
+    numero2 = parseInt(numero2);
+    
+    multiplicar = numero1 * numero2;
+
+    alert("La multiplicación es " + multiplicar);
 	
 }
 
 function dividir()
-{dividir = num1 + num2
+{var dividir
+    numero1 = document.getElementById("numeroUno").value;
+    numero1 = parseInt(numero1);
+
+    numero2 = document.getElementById("numeroDos").value;
+    numero2 = parseInt(numero2);
+    
+    dividir = numero1 / numero2;
+
+    alert("La división es " + dividir);
 	
-    alert("la resta es " + dividir)
 }
 

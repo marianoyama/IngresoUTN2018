@@ -3,7 +3,10 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
-{	var sumar;
+{	var numero1;
+    var numero2;
+    
+    var sumar;
     var restar;
     var multiplicar;
     var dividir;
@@ -36,7 +39,7 @@ function restar()
 }
 
 function multiplicar()
-{   var multiplicar
+{   var multiplicar;
     numero1 = document.getElementById("numeroUno").value;
     numero1 = parseInt(numero1);
 
@@ -50,7 +53,7 @@ function multiplicar()
 }
 
 function dividir()
-{var dividir
+{var dividir;
     numero1 = document.getElementById("numeroUno").value;
     numero1 = parseInt(numero1);
 

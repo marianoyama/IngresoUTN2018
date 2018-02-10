@@ -8,9 +8,9 @@ var sueldo;
 var aumento;
 var nuevosueldo;
 
-sueldo = parseFloat(document.getElementById("sueldo").value);
+sueldo = parseFloat (document.getElementById("sueldo").value);
 
-aumento = sueldo * .1;
+aumento = sueldo * 0.1;
 
 nuevosueldo = aumento + sueldo;
 

@@ -7,13 +7,13 @@ function Mostrar() {
 
 	if (numeroaleatorio >= 9) 
 	{
-		alert(numeroaleatorio + " Excelente");
+		alert(numeroaleatorio + ": Excelente");
 	}
 	else
 		if (numeroaleatorio < 4)
-			alert(numeroaleatorio + " Vamos, la proxima se puede");
+			alert(numeroaleatorio + ": Vamos, la proxima se puede");
 		else
-		{ alert(numeroaleatorio + " Aprobò") }
+		{ alert(numeroaleatorio + ": Aprobò") }
 
 
 }//FIN DE LA FUNCIÓN

@@ -1,14 +1,20 @@
-function Mostrar()
-{
+function Mostrar() {
 
-var 0sexo = prompt("ingrese f ó m .");
+    var sexo = prompt("ingrese f ó m .");
+    sexo = sexo.toLowerCase();
+    while (sexo != "f" && sexo != "m") {
+        sexo = prompt("Sexo incorrecto, pruebe nuevamente");
+        sexo = sexo.toLocaleLowerCase();    }
+    if (sexo == "m") {
+        sexo = "Eres Masculino";
 
-while(!(sexo "f") || sexo "m")
-{
-    sexo = prompt("Sexo incorrecto, pruebe nuevamente")
-}
+    }
+
+    else {
+        sexo = "Eres Femenino";
+    }
 
 
-sexo = document.getElementById('Sexo').value;
+    document.getElementById("Sexo").value = sexo;
 
 }//FIN DE LA FUNCIÓN

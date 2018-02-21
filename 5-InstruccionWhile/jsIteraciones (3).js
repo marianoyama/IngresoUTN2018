@@ -5,8 +5,8 @@ var clave = prompt("ingrese el número clave.");
 
 while(clave == "utn750")
 {                                      
-   clave =  prompt("Clave correcta");
-    
+   clave =  prompt("Clave correcta")
+    break;  
 }
 alert("Clave incorrecta, pruebe nuevamente");
 

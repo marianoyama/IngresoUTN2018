@@ -46,7 +46,9 @@ function Mostrar()
 
 
 		respuesta = prompt("Desea continuar ?: ")
-	} while (respuesta == 's')
+		respuesta = respuesta.toLowerCase();
+
+	} while (respuesta == 's');
 
 	promPos = sumaPos / contPos;
 	promNeg = sumaNeg / contNeg;
@@ -64,6 +66,6 @@ function Mostrar()
 	document.write("6-Cantidad de números pares: " + contPares + "<br/>");
 	document.write("7-Promedio de positivos: " + promPos + "<br/>");
 	document.write("8-Promedios de negativos: " + promNeg + "<br/>");
-	document.write("Diferencia entre positivos y negativos: " + diferencia + "<br/>");
+	document.write("9-Diferencia entre positivos y negativos: " + diferencia + "<br/>");
 
 }//FIN DE LA FUNCIÓN
